@@ -22,8 +22,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. multidimgrid(ndim_interp, unit_grid, axes, vector)
-### Parameters:
+### 1. multidimgrid(ndim_interp, unit_grid, axes, vector)
+#### Parameters:
 
 ndim_interp: The number of dimensions for interpolation (int).
 unit_grid: A 2D array representing the grid values to interpolate.
@@ -31,8 +31,8 @@ axes: A 2D array defining the axes for interpolation.
 vector: A vector to be interpolated.
 Returns: The interpolated value (float).
 
-2. bilint_new(BAM, nbands, ddcols, icolx, dxf, dyf, incr, numu, mxband, mxwaves, mxcols, mxline, mxsamp, mxcolssm, out)
-### Parameters:
+### 2. bilint_new(BAM, nbands, ddcols, icolx, dxf, dyf, incr, numu, mxband, mxwaves, mxcols, mxline, mxsamp, mxcolssm, out)
+#### Parameters:
 
 BAM: Input data array.
 nbands: Number of bands (int).
@@ -46,8 +46,8 @@ mxband, mxwaves, mxcols, mxline, mxsamp, mxcolssm: Various maximum dimensions fo
 out: Output array.
 Returns: The output array after bilinear interpolation.
 
-3. rayterpolate(trdrsp, disortout, mlst, nlst, endboundsubband, pressure, xpres, nsurfpres, alb, nalb, mxcolssm, mxline, mxband, mxsamp, mxwaves, max_val, ssa_out)
-### Parameters:
+### 3. rayterpolate(trdrsp, disortout, mlst, nlst, endboundsubband, pressure, xpres, nsurfpres, alb, nalb, mxcolssm, mxline, mxband, mxsamp, mxwaves, max_val, ssa_out)
+#### Parameters:
 
 trdrsp: Input spectral data (1D array).
 disortout: Output data for interpolation (2D array).
