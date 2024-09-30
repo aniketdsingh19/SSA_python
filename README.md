@@ -20,6 +20,9 @@ Numba
 ## Install Dependencies
 pip install -r requirements.txt
 
+## Run
+python SSA_retrive_parallel.py <params>.txt <ssa_op_file> <ssa_hdr_op_file>
+
 ## Usage
 
 ### 1. multidimgrid(ndim_interp, unit_grid, axes, vector)
